@@ -24,7 +24,7 @@ const parameters = {
 let dataSets;
 
 // Uncomment this if you want to load a CityModel from a path in this directory
-//const cityModelPath = '../Grasshopper Scripts/DTCC_CITYJSON_parser/CityModel.json'
+//const cityModelPath = './data/CityModel.json'
 
 // Paths loaded through web worker (CSVs) need to be
 // relative to the worker directory (src/)

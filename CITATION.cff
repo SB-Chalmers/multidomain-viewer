@@ -1,0 +1,46 @@
+cff-version: 1.2.0
+message: "Please cite the associated paper for the research workflow and this repository for the viewer software. No archived software DOI is established."
+title: "Multidomain Urban Design Viewer"
+type: software
+authors:
+  - family-names: "Bohlin"
+    given-names: "Joakim"
+  - family-names: "Somanath"
+    given-names: "Sanjay"
+repository-code: "https://github.com/SB-Chalmers/multidomain-viewer"
+license: MIT
+preferred-citation:
+  type: article
+  title: "Towards digital twinning for multi-domain simulation workflows in urban design: a case study in Gothenburg"
+  doi: "10.1080/19401493.2024.2320112"
+  year: 2025
+  journal: "Journal of Building Performance Simulation"
+  volume: "18"
+  issue: "3"
+  start: 311
+  end: 332
+  authors:
+    - family-names: "Gonzalez-Caceres"
+      given-names: "Alex"
+    - family-names: "Hunger"
+      given-names: "Franziska"
+    - family-names: "Forssén"
+      given-names: "Jens"
+    - family-names: "Somanath"
+      given-names: "Sanjay"
+    - family-names: "Mark"
+      given-names: "Andreas"
+    - family-names: "Naserentin"
+      given-names: "Vasilis"
+    - family-names: "Bohlin"
+      given-names: "Joakim"
+    - family-names: "Logg"
+      given-names: "Anders"
+    - family-names: "Wästberg"
+      given-names: "Beata"
+    - family-names: "Komisarczyk"
+      given-names: "Dominika"
+    - family-names: "Edelvik"
+      given-names: "Fredrik"
+    - family-names: "Hollberg"
+      given-names: "Alexander"

@@ -1,0 +1,34 @@
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ipynb_checkpoints/
+.DS_Store
+
+# Keep large or regenerable outputs outside Git. Small examples may be tracked separately.
+/data/raw/
+/data/processed/
+/data/generated/
+/outputs/
+
+# Restored inputs and archived/generated assets; see migration.json.
+/data/radiation/20230328_RadiationOption1_10mgrid.csv
+/data/wind/Option_0/WindroseSurfaceCell_small.csv
+/data/wind/Option_0/WindroseSurfaceNodes_small.csv
+/data/wind/Option_1/WindroseSurfaceCell_small.csv
+/data/wind/Option_1/WindroseSurfaceNodes_small.csv
+/data/wind/Option_2/WindroseSurfaceCell_small.csv
+/data/wind/Option_2/WindroseSurfaceNodes_small.csv
+/data/wind/Option_3/WindroseSurfaceCell_small.csv
+/data/wind/Option_3/WindroseSurfaceNodes_small.csv
+/data/wind/Option_4/WindroseSurfaceCell_small.csv
+/data/wind/Option_4/WindroseSurfaceNodes_small.csv
+/data/wind/Option_5/WindroseSurfaceCell_small.csv
+/data/wind/Option_5/WindroseSurfaceNodes_small.csv
+/data/wind/Option_6/WindroseSurfaceCell_small.csv
+/data/wind/Option_6/WindroseSurfaceNodes_small.csv
+/data/wind/Option_7/WindroseSurfaceCell_small.csv
+/data/wind/Option_7/WindroseSurfaceNodes_small.csv
+
+# Static hosting artifact.
+/_site/

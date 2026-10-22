@@ -1,91 +1,42 @@
-The use of digital twins for multi-domain simulation workflows supporting urban design: A case study in Gothenburg
-==================================================================================================================
+# Multidomain Urban Design Viewer
 
-Authors
--------
+![JavaScript](https://img.shields.io/badge/JavaScript-Three.js-blue)
+[![MIT License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
+[![Paper DOI](https://img.shields.io/badge/Paper_DOI-10.1080%2F19401493.2024.2320112-blue)](https://doi.org/10.1080/19401493.2024.2320112)
 
--   Alex Gonzalez-Caceres<sup>a</sup>
--   Franziska Hunger<sup>b</sup>
--   Jens Forssén<sup>a</sup>
--   Sanjay Somanath<sup>a</sup>
--   Andreas Mark<sup>b</sup>
--   Vasilis Naserentin<sup>c-e</sup>
--   Joakim Bohlin<sup>f</sup>
--   Anders Logg<sup>c</sup>
--   Beata Wästberg<sup>d</sup>
--   Dominika Komisarczyk<sup>a</sup>
--   Fredrik Edelvik<sup>b</sup>
--   Alexander Hollberg<sup>a</sup>
+Explore urban design alternatives through combined energy, wind, noise, and solar radiation results in a browser.
 
-**a** Department of Architecture and Civil Engineering, Chalmers University of Technology, SE-412 96 Gothenburg, Sweden\
-**b** Fraunhofer-Chalmers Research Centre for Industrial Mathematics, Gothenburg, Sweden\
-**c** Department of Mathematical Sciences, Chalmers University of Technology, SE-412 96 Gothenburg, Sweden\
-**d** Department of Computer Science and Engineering, Chalmers University of Technology, SE-412 96 Gothenburg, Sweden\
-**e** Department of Electrical and Computer Engineering, Aristotle University of Thessaloniki, GR- 54124, Thessaloniki, Greece\
-**f** Department of Physics, Chalmers University of Technology, SE-412 96 Gothenburg, Sweden
+## Context and aim
 
-DOI
----
+This Three.js viewer accompanies a Gothenburg case study in computational sustainable design. It compares simulated design alternatives and provides an experimental WebXR mode. The original research workflow and author list are retained in [the research notes](docs/original-readme.md).
 
-[Add DOI here]
+**Project status:** migrated research prototype. The migration preserves the original rendering and simulation assumptions; it is not a new validation of the case-study results.
 
-Overview
---------
+## People and research outputs
 
-This repository contains the source code and resources for the interactive WebGL visualization of the multi-domain simulation results supporting urban design in Gothenburg. The visualization displays radiation, noise, and wind data, along with building energy consumption, using an intuitive and interactive interface. The project is built using the [Three.js](https://threejs.org/) JavaScript framework, which allows for efficient 3D rendering in web browsers.
+Joakim Bohlin is credited for web development in the source project. Joakim Bohlin and Sanjay Somanath appear in the retained software commit history. The paper's complete research author list is preserved separately.
 
-Visit the live visualization at <https://sb-chalmers.github.io/ComputationSustainableDesign/multidomainvis/>
+- **Paper:** [Towards digital twinning for multi-domain simulation workflows in urban design: a case study in Gothenburg](https://doi.org/10.1080/19401493.2024.2320112).
+- **How to cite:** [CITATION.cff](CITATION.cff) distinguishes the software contributors from the associated paper.
+- **Software/data archive DOI:** not established in the source; see [data provenance](data/README.md).
 
-You may also explore the visualisation in VR using WebXR at <https://sb-chalmers.github.io/ComputationSustainableDesign/multidomainvis?vr>
+## Getting started
 
-![Example representation of the combined visualization](cover.png)
+From the repository root, using Python 3 for data retrieval and the local HTTP server:
 
-Introduction
-============
+```sh
+python3 scripts/fetch_archived_data.py
+python3 -m http.server 8000
+```
 
-This project proposes an automated workflow utilizing a digital twin for multi-domain environmental performance analysis of urban developments. The digital twin has the potential to provide a common basis for multi-domain simulations, helping to overcome data availability and interoperability issues. The proposed workflow consists of the following five steps:
+Open [the local viewer](http://localhost:8000/?option=0). At the CityModel prompt, choose **Ignore** to view the supplied environmental results without a city model. To include building energy colors, supply a compatible DTCC CityModel JSON file. Internet access is needed for the import-map shim in `index.html`.
 
-1.  Creating a procedural urban 3D model
-2.  Generating seven design alternatives parametrically
-3.  Exporting the context and each design alternative to each simulation tool
-4.  Running simulations for wind comfort, energy demand, and noise for each design alternative
-5.  Combining and visualizing the simulation results using the digital twin
+See [docs/reproduce.md](docs/reproduce.md) for data checks, all alternatives, hosting, and limitations.
 
-The workflow was applied to a neighborhood in Gothenburg, Sweden. The results demonstrate a reduction in manual work required when applying different simulation software for various domains. This is a step forward in streamlining the workflow for urban analysis, particularly important when optimizing designs by comparing multiple variants.
+## Repository structure
 
-Combining, Visualizing, and Assessing Results
----------------------------------------------
+`index.html` and `main.js` start the viewer; `src/` contains data loaders and rendering helpers; `libs/` contains the original browser libraries; `data/` contains small inputs and describes larger downloadable files; `docs/` holds methods and reproduction guidance. [migration.json](migration.json) records source paths and checksums.
 
-### Base Case and Key Performance Indicators
+## License and funding
 
-A base case is established as a reference point for all three domains. Design alternatives are then evaluated based on their performance compared to this base case. Key performance indicators (KPIs) include:
-
--   Wind comfort level using the Lawson LDDC criterion
--   The percentage of improved area with daytime noise level Lday ≤ 50 dB
--   The relative increase in annual energy demand of existing buildings resulting from each alternative
-
-All numeric results are converted into percentages using area of improvement or energy increase, allowing for combined results and final ranking of design alternatives.
-
-### Visualization Using Three.js
-
-Individual domain results are visualized in a combined view to present to stakeholders. An interactive WebGL visualization was created using the JavaScript framework [Three.js](https://threejs.org/).
-
--   Radiation and noise results are visualized using point particles colored according to their respective values.
--   Wind results are rendered as a triangulated mesh, colored corresponding to the Lawson LDDC categories of the cells.
--   Building color represents its energy demand.
-
-HTML-based legends show how colors map to simulation result values.
-
-### User Interface and Interaction
-
-The user interface includes a toolbar to select different design alternatives, switching between distinct datasets. The interface also offers the option to toggle different data on or off, such as hiding the wind mesh to avoid occluding the radiation data. This interactive investigation of the results allows for comprehensive communication with stakeholders and enhances the utility of the digital twin.
-
-License
--------
-
-[Add License information here]
-
-Acknowledgments
----------------
-
-We would like to thank Joakim Bohlin for his contribution to the web development of the viewer.
+Project code is licensed under [MIT](LICENSE); bundled third-party notices are retained. Input data provenance and terms are documented separately in [data/README.md](data/README.md). Funding references and remaining maintainer questions are in [docs/README.md](docs/README.md).

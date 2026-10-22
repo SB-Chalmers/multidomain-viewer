@@ -1,0 +1,617 @@
+{
+  "source_repository": "SB-Chalmers/ComputationSustainableDesign",
+  "source_commit": "7f61d112e0d60667bbef3e6fc4fc7236bcf6bbba",
+  "migration_date": "2026-10-22",
+  "repository": "SB-Chalmers/multidomain-viewer",
+  "source_folders": [
+    "multidomainvis/"
+  ],
+  "history": "Relevant source history retained with git-filter-repo; regenerable outputs/backups and downloadable large assets excluded.",
+  "files": [
+    {
+      "path": "docs/original-readme.md",
+      "source_path": "multidomainvis/README.md",
+      "status": "included",
+      "size": 5171,
+      "sha256": "2fd1fcbbb7192b94a8792eab8f49e8eccd599ee6ccf3ca732aa18a71448b6b70",
+      "source_url": "https://github.com/SB-Chalmers/ComputationSustainableDesign/blob/7f61d112e0d60667bbef3e6fc4fc7236bcf6bbba/multidomainvis/README.md",
+      "download_url": "https://raw.githubusercontent.com/SB-Chalmers/ComputationSustainableDesign/7f61d112e0d60667bbef3e6fc4fc7236bcf6bbba/multidomainvis/README.md",
+      "documentation_relocated": true,
+      "documentation_links_updated": true,
+      "migrated_sha256": "26eeafedd1baa3b8e632b4f201852177fa6539e99c7e23dbb6dbf838b7a3feaf"
+    },
+    {
+      "path": "cover.png",
+      "source_path": "multidomainvis/cover.png",
+      "status": "included",
+      "size": 447439,
+      "sha256": "c40dbbbe1f8ecb4b7df42ac12b7ee123ebdedffc42ad75d5e330ebf5c4e2b241",
+      "source_url": "https://github.com/SB-Chalmers/ComputationSustainableDesign/blob/7f61d112e0d60667bbef3e6fc4fc7236bcf6bbba/multidomainvis/cover.png",
+      "download_url": "https://raw.githubusercontent.com/SB-Chalmers/ComputationSustainableDesign/7f61d112e0d60667bbef3e6fc4fc7236bcf6bbba/multidomainvis/cover.png",
+      "migrated_sha256": "c40dbbbe1f8ecb4b7df42ac12b7ee123ebdedffc42ad75d5e330ebf5c4e2b241"
+    },
+    {
+      "path": "data/buildingOptions/option_1.stl",
+      "source_path": "multidomainvis/data/buildingOptions/option_1.stl",
+      "status": "included",
+      "size": 2484,
+      "sha256": "05ce448dd114561f7fd69b02fbec46b7933abf3450772f7842472fb7c84d1a8e",
+      "source_url": "https://github.com/SB-Chalmers/ComputationSustainableDesign/blob/7f61d112e0d60667bbef3e6fc4fc7236bcf6bbba/multidomainvis/data/buildingOptions/option_1.stl",
+      "download_url": "https://raw.githubusercontent.com/SB-Chalmers/ComputationSustainableDesign/7f61d112e0d60667bbef3e6fc4fc7236bcf6bbba/multidomainvis/data/buildingOptions/option_1.stl",
+      "migrated_sha256": "05ce448dd114561f7fd69b02fbec46b7933abf3450772f7842472fb7c84d1a8e"
+    },
+    {
+      "path": "data/buildingOptions/option_2.stl",
+      "source_path": "multidomainvis/data/buildingOptions/option_2.stl",
+      "status": "included",
+      "size": 4284,
+      "sha256": "2eda8de4b9d5909cc06e81d6022ceddd0e41760f5d2b1ac2f47558d66057f71c",
+      "source_url": "https://github.com/SB-Chalmers/ComputationSustainableDesign/blob/7f61d112e0d60667bbef3e6fc4fc7236bcf6bbba/multidomainvis/data/buildingOptions/option_2.stl",
+      "download_url": "https://raw.githubusercontent.com/SB-Chalmers/ComputationSustainableDesign/7f61d112e0d60667bbef3e6fc4fc7236bcf6bbba/multidomainvis/data/buildingOptions/option_2.stl",
+      "migrated_sha256": "2eda8de4b9d5909cc06e81d6022ceddd0e41760f5d2b1ac2f47558d66057f71c"
+    },
+    {
+      "path": "data/buildingOptions/option_3.stl",
+      "source_path": "multidomainvis/data/buildingOptions/option_3.stl",
+      "status": "included",
+      "size": 4884,
+      "sha256": "ffb30520ad3ee38f6cf46e247db9cf83e989e7afb399b8ba1a73e4e855fcc9a5",
+      "source_url": "https://github.com/SB-Chalmers/ComputationSustainableDesign/blob/7f61d112e0d60667bbef3e6fc4fc7236bcf6bbba/multidomainvis/data/buildingOptions/option_3.stl",
+      "download_url": "https://raw.githubusercontent.com/SB-Chalmers/ComputationSustainableDesign/7f61d112e0d60667bbef3e6fc4fc7236bcf6bbba/multidomainvis/data/buildingOptions/option_3.stl",
+      "migrated_sha256": "ffb30520ad3ee38f6cf46e247db9cf83e989e7afb399b8ba1a73e4e855fcc9a5"
+    },
+    {
+      "path": "data/buildingOptions/option_4.stl",
+      "source_path": "multidomainvis/data/buildingOptions/option_4.stl",
+      "status": "included",
+      "size": 4284,
+      "sha256": "1f37c79366807bb3c6234b126da40d8c529f6667bc0577719bd69b010d34028b",
+      "source_url": "https://github.com/SB-Chalmers/ComputationSustainableDesign/blob/7f61d112e0d60667bbef3e6fc4fc7236bcf6bbba/multidomainvis/data/buildingOptions/option_4.stl",
+      "download_url": "https://raw.githubusercontent.com/SB-Chalmers/ComputationSustainableDesign/7f61d112e0d60667bbef3e6fc4fc7236bcf6bbba/multidomainvis/data/buildingOptions/option_4.stl",
+      "migrated_sha256": "1f37c79366807bb3c6234b126da40d8c529f6667bc0577719bd69b010d34028b"
+    },
+    {
+      "path": "data/buildingOptions/option_5.stl",
+      "source_path": "multidomainvis/data/buildingOptions/option_5.stl",
+      "status": "included",
+      "size": 4284,
+      "sha256": "90518e05878ba143c34886be125cc4a9cbb1ec2749177fd47d1afd925227c305",
+      "source_url": "https://github.com/SB-Chalmers/ComputationSustainableDesign/blob/7f61d112e0d60667bbef3e6fc4fc7236bcf6bbba/multidomainvis/data/buildingOptions/option_5.stl",
+      "download_url": "https://raw.githubusercontent.com/SB-Chalmers/ComputationSustainableDesign/7f61d112e0d60667bbef3e6fc4fc7236bcf6bbba/multidomainvis/data/buildingOptions/option_5.stl",
+      "migrated_sha256": "90518e05878ba143c34886be125cc4a9cbb1ec2749177fd47d1afd925227c305"
+    },
+    {
+      "path": "data/buildingOptions/option_6.stl",
+      "source_path": "multidomainvis/data/buildingOptions/option_6.stl",
+      "status": "included",
+      "size": 5484,
+      "sha256": "e311faeeb1175087c28d78d1de922890528c9b312e5cc63b4f0aebb2b044e0dc",
+      "source_url": "https://github.com/SB-Chalmers/ComputationSustainableDesign/blob/7f61d112e0d60667bbef3e6fc4fc7236bcf6bbba/multidomainvis/data/buildingOptions/option_6.stl",
+      "download_url": "https://raw.githubusercontent.com/SB-Chalmers/ComputationSustainableDesign/7f61d112e0d60667bbef3e6fc4fc7236bcf6bbba/multidomainvis/data/buildingOptions/option_6.stl",
+      "migrated_sha256": "e311faeeb1175087c28d78d1de922890528c9b312e5cc63b4f0aebb2b044e0dc"
+    },
+    {
+      "path": "data/buildingOptions/option_7.stl",
+      "source_path": "multidomainvis/data/buildingOptions/option_7.stl",
+      "status": "included",
+      "size": 4284,
+      "sha256": "5c562a6cc6d776e34bb18015515852d79a51e22889da4d26530129d46a665764",
+      "source_url": "https://github.com/SB-Chalmers/ComputationSustainableDesign/blob/7f61d112e0d60667bbef3e6fc4fc7236bcf6bbba/multidomainvis/data/buildingOptions/option_7.stl",
+      "download_url": "https://raw.githubusercontent.com/SB-Chalmers/ComputationSustainableDesign/7f61d112e0d60667bbef3e6fc4fc7236bcf6bbba/multidomainvis/data/buildingOptions/option_7.stl",
+      "migrated_sha256": "5c562a6cc6d776e34bb18015515852d79a51e22889da4d26530129d46a665764"
+    },
+    {
+      "path": "data/energy/alt_1.csv",
+      "source_path": "multidomainvis/data/energy/alt_1.csv",
+      "status": "included",
+      "size": 1967,
+      "sha256": "e927df349a5cfe3180564ef6349e2ecbcb1a428ba2a7fe20ee4e7e607782986e",
+      "source_url": "https://github.com/SB-Chalmers/ComputationSustainableDesign/blob/7f61d112e0d60667bbef3e6fc4fc7236bcf6bbba/multidomainvis/data/energy/alt_1.csv",
+      "download_url": "https://raw.githubusercontent.com/SB-Chalmers/ComputationSustainableDesign/7f61d112e0d60667bbef3e6fc4fc7236bcf6bbba/multidomainvis/data/energy/alt_1.csv",
+      "migrated_sha256": "e927df349a5cfe3180564ef6349e2ecbcb1a428ba2a7fe20ee4e7e607782986e"
+    },
+    {
+      "path": "data/noise/option_0_Lden.csv",
+      "source_path": "multidomainvis/data/noise/option_0_Lden.csv",
+      "status": "included",
+      "size": 294135,
+      "sha256": "c271de893493c1d6a746207d6e0042dc58770b9977f00e71d2a1cc64f04563eb",
+      "source_url": "https://github.com/SB-Chalmers/ComputationSustainableDesign/blob/7f61d112e0d60667bbef3e6fc4fc7236bcf6bbba/multidomainvis/data/noise/option_0_Lden.csv",
+      "download_url": "https://raw.githubusercontent.com/SB-Chalmers/ComputationSustainableDesign/7f61d112e0d60667bbef3e6fc4fc7236bcf6bbba/multidomainvis/data/noise/option_0_Lden.csv",
+      "migrated_sha256": "c271de893493c1d6a746207d6e0042dc58770b9977f00e71d2a1cc64f04563eb"
+    },
+    {
+      "path": "data/noise/option_1_Lden.csv",
+      "source_path": "multidomainvis/data/noise/option_1_Lden.csv",
+      "status": "included",
+      "size": 290967,
+      "sha256": "81a46492b4a8b641305d462aed62cacdf42becebc61f89a73abe3b80a1992cb6",
+      "source_url": "https://github.com/SB-Chalmers/ComputationSustainableDesign/blob/7f61d112e0d60667bbef3e6fc4fc7236bcf6bbba/multidomainvis/data/noise/option_1_Lden.csv",
+      "download_url": "https://raw.githubusercontent.com/SB-Chalmers/ComputationSustainableDesign/7f61d112e0d60667bbef3e6fc4fc7236bcf6bbba/multidomainvis/data/noise/option_1_Lden.csv",
+      "migrated_sha256": "81a46492b4a8b641305d462aed62cacdf42becebc61f89a73abe3b80a1992cb6"
+    },
+    {
+      "path": "data/noise/option_2_Lden.csv",
+      "source_path": "multidomainvis/data/noise/option_2_Lden.csv",
+      "status": "included",
+      "size": 290745,
+      "sha256": "030731ad5a6794251a0c2764dc253c5b89586187c5e8968f1d1983b04e132f40",
+      "source_url": "https://github.com/SB-Chalmers/ComputationSustainableDesign/blob/7f61d112e0d60667bbef3e6fc4fc7236bcf6bbba/multidomainvis/data/noise/option_2_Lden.csv",
+      "download_url": "https://raw.githubusercontent.com/SB-Chalmers/ComputationSustainableDesign/7f61d112e0d60667bbef3e6fc4fc7236bcf6bbba/multidomainvis/data/noise/option_2_Lden.csv",
+      "migrated_sha256": "030731ad5a6794251a0c2764dc253c5b89586187c5e8968f1d1983b04e132f40"
+    },
+    {
+      "path": "data/noise/option_3_Lden.csv",
+      "source_path": "multidomainvis/data/noise/option_3_Lden.csv",
+      "status": "included",
+      "size": 290013,
+      "sha256": "9727a560ccda737ad107d9e5664943e80026f8dc43f22d24602ee856883905e4",
+      "source_url": "https://github.com/SB-Chalmers/ComputationSustainableDesign/blob/7f61d112e0d60667bbef3e6fc4fc7236bcf6bbba/multidomainvis/data/noise/option_3_Lden.csv",
+      "download_url": "https://raw.githubusercontent.com/SB-Chalmers/ComputationSustainableDesign/7f61d112e0d60667bbef3e6fc4fc7236bcf6bbba/multidomainvis/data/noise/option_3_Lden.csv",
+      "migrated_sha256": "9727a560ccda737ad107d9e5664943e80026f8dc43f22d24602ee856883905e4"
+    },
+    {
+      "path": "data/noise/option_4_Lden.csv",
+      "source_path": "multidomainvis/data/noise/option_4_Lden.csv",
+      "status": "included",
+      "size": 289233,
+      "sha256": "5a58c185fbec4deafa95a274edd0188cb0f03dcd287b0e2a8c62be9a07d4e704",
+      "source_url": "https://github.com/SB-Chalmers/ComputationSustainableDesign/blob/7f61d112e0d60667bbef3e6fc4fc7236bcf6bbba/multidomainvis/data/noise/option_4_Lden.csv",
+      "download_url": "https://raw.githubusercontent.com/SB-Chalmers/ComputationSustainableDesign/7f61d112e0d60667bbef3e6fc4fc7236bcf6bbba/multidomainvis/data/noise/option_4_Lden.csv",
+      "migrated_sha256": "5a58c185fbec4deafa95a274edd0188cb0f03dcd287b0e2a8c62be9a07d4e704"
+    },
+    {
+      "path": "data/noise/option_5_Lden.csv",
+      "source_path": "multidomainvis/data/noise/option_5_Lden.csv",
+      "status": "included",
+      "size": 288591,
+      "sha256": "1da46dee95b1f7287d38bba7d063ed5398431cbf76f0499b7c2ae3777337c510",
+      "source_url": "https://github.com/SB-Chalmers/ComputationSustainableDesign/blob/7f61d112e0d60667bbef3e6fc4fc7236bcf6bbba/multidomainvis/data/noise/option_5_Lden.csv",
+      "download_url": "https://raw.githubusercontent.com/SB-Chalmers/ComputationSustainableDesign/7f61d112e0d60667bbef3e6fc4fc7236bcf6bbba/multidomainvis/data/noise/option_5_Lden.csv",
+      "migrated_sha256": "1da46dee95b1f7287d38bba7d063ed5398431cbf76f0499b7c2ae3777337c510"
+    },
+    {
+      "path": "data/noise/option_6_Lden.csv",
+      "source_path": "multidomainvis/data/noise/option_6_Lden.csv",
+      "status": "included",
+      "size": 287883,
+      "sha256": "c0dcb1faf43b6b910d2d9f38e5603335225cff292026af869662bb53e7dc30d8",
+      "source_url": "https://github.com/SB-Chalmers/ComputationSustainableDesign/blob/7f61d112e0d60667bbef3e6fc4fc7236bcf6bbba/multidomainvis/data/noise/option_6_Lden.csv",
+      "download_url": "https://raw.githubusercontent.com/SB-Chalmers/ComputationSustainableDesign/7f61d112e0d60667bbef3e6fc4fc7236bcf6bbba/multidomainvis/data/noise/option_6_Lden.csv",
+      "migrated_sha256": "c0dcb1faf43b6b910d2d9f38e5603335225cff292026af869662bb53e7dc30d8"
+    },
+    {
+      "path": "data/noise/option_7_Lden.csv",
+      "source_path": "multidomainvis/data/noise/option_7_Lden.csv",
+      "status": "included",
+      "size": 289371,
+      "sha256": "d1956fb86a5d4a0d89f367bbea33fa49b8918638233c113812e5ddfcaf6769b4",
+      "source_url": "https://github.com/SB-Chalmers/ComputationSustainableDesign/blob/7f61d112e0d60667bbef3e6fc4fc7236bcf6bbba/multidomainvis/data/noise/option_7_Lden.csv",
+      "download_url": "https://raw.githubusercontent.com/SB-Chalmers/ComputationSustainableDesign/7f61d112e0d60667bbef3e6fc4fc7236bcf6bbba/multidomainvis/data/noise/option_7_Lden.csv",
+      "migrated_sha256": "d1956fb86a5d4a0d89f367bbea33fa49b8918638233c113812e5ddfcaf6769b4"
+    },
+    {
+      "path": "data/radiation/20230327_RadiationBaseCase.csv",
+      "source_path": "multidomainvis/data/radiation/20230327_RadiationBaseCase.csv",
+      "status": "included",
+      "size": 856356,
+      "sha256": "6894aab3ee79120418bcdec5fcd68fd70ed1b77ea78e70937ed951992f8888ad",
+      "source_url": "https://github.com/SB-Chalmers/ComputationSustainableDesign/blob/7f61d112e0d60667bbef3e6fc4fc7236bcf6bbba/multidomainvis/data/radiation/20230327_RadiationBaseCase.csv",
+      "download_url": "https://raw.githubusercontent.com/SB-Chalmers/ComputationSustainableDesign/7f61d112e0d60667bbef3e6fc4fc7236bcf6bbba/multidomainvis/data/radiation/20230327_RadiationBaseCase.csv",
+      "migrated_sha256": "6894aab3ee79120418bcdec5fcd68fd70ed1b77ea78e70937ed951992f8888ad"
+    },
+    {
+      "path": "data/radiation/20230328_RadiationOption1_10mgrid.csv",
+      "source_path": "multidomainvis/data/radiation/20230328_RadiationOption1_10mgrid.csv",
+      "status": "download",
+      "size": 2564598,
+      "sha256": "b63ebd58a1eb8eeaa66935bcc1132c2e3eec45734339e6d1109da4bbe02fcd16",
+      "source_url": "https://github.com/SB-Chalmers/ComputationSustainableDesign/blob/7f61d112e0d60667bbef3e6fc4fc7236bcf6bbba/multidomainvis/data/radiation/20230328_RadiationOption1_10mgrid.csv",
+      "download_url": "https://raw.githubusercontent.com/SB-Chalmers/ComputationSustainableDesign/7f61d112e0d60667bbef3e6fc4fc7236bcf6bbba/multidomainvis/data/radiation/20230328_RadiationOption1_10mgrid.csv"
+    },
+    {
+      "path": "data/radiation/20230328_RadiationOption2_10mgrid.csv",
+      "source_path": "multidomainvis/data/radiation/20230328_RadiationOption2_10mgrid.csv",
+      "status": "included",
+      "size": 669966,
+      "sha256": "2e8177839de0bded6f43f41e224899e04854c0a00d9fbb8515edce2b44df2c74",
+      "source_url": "https://github.com/SB-Chalmers/ComputationSustainableDesign/blob/7f61d112e0d60667bbef3e6fc4fc7236bcf6bbba/multidomainvis/data/radiation/20230328_RadiationOption2_10mgrid.csv",
+      "download_url": "https://raw.githubusercontent.com/SB-Chalmers/ComputationSustainableDesign/7f61d112e0d60667bbef3e6fc4fc7236bcf6bbba/multidomainvis/data/radiation/20230328_RadiationOption2_10mgrid.csv",
+      "migrated_sha256": "2e8177839de0bded6f43f41e224899e04854c0a00d9fbb8515edce2b44df2c74"
+    },
+    {
+      "path": "data/radiation/20230328_RadiationOption3_10mgrid.csv",
+      "source_path": "multidomainvis/data/radiation/20230328_RadiationOption3_10mgrid.csv",
+      "status": "included",
+      "size": 670019,
+      "sha256": "baa5d313f8cd7ffbae60470e743cc71a19c022c5654ecb4c235c5972d7ae9507",
+      "source_url": "https://github.com/SB-Chalmers/ComputationSustainableDesign/blob/7f61d112e0d60667bbef3e6fc4fc7236bcf6bbba/multidomainvis/data/radiation/20230328_RadiationOption3_10mgrid.csv",
+      "download_url": "https://raw.githubusercontent.com/SB-Chalmers/ComputationSustainableDesign/7f61d112e0d60667bbef3e6fc4fc7236bcf6bbba/multidomainvis/data/radiation/20230328_RadiationOption3_10mgrid.csv",
+      "migrated_sha256": "baa5d313f8cd7ffbae60470e743cc71a19c022c5654ecb4c235c5972d7ae9507"
+    },
+    {
+      "path": "data/radiation/20230328_RadiationOption4_10mgrid.csv",
+      "source_path": "multidomainvis/data/radiation/20230328_RadiationOption4_10mgrid.csv",
+      "status": "included",
+      "size": 669787,
+      "sha256": "b83e2112722b307b4224b6becd8f8c94f65cd4a116e43b0e7cf1a3e2615e8a6c",
+      "source_url": "https://github.com/SB-Chalmers/ComputationSustainableDesign/blob/7f61d112e0d60667bbef3e6fc4fc7236bcf6bbba/multidomainvis/data/radiation/20230328_RadiationOption4_10mgrid.csv",
+      "download_url": "https://raw.githubusercontent.com/SB-Chalmers/ComputationSustainableDesign/7f61d112e0d60667bbef3e6fc4fc7236bcf6bbba/multidomainvis/data/radiation/20230328_RadiationOption4_10mgrid.csv",
+      "migrated_sha256": "b83e2112722b307b4224b6becd8f8c94f65cd4a116e43b0e7cf1a3e2615e8a6c"
+    },
+    {
+      "path": "data/radiation/20230328_RadiationOption5_10mgrid.csv",
+      "source_path": "multidomainvis/data/radiation/20230328_RadiationOption5_10mgrid.csv",
+      "status": "included",
+      "size": 667983,
+      "sha256": "2d3d7e8d670e3e6ef8e12e933a9ec9360482670cbf15ef17c0c757c677d0c01f",
+      "source_url": "https://github.com/SB-Chalmers/ComputationSustainableDesign/blob/7f61d112e0d60667bbef3e6fc4fc7236bcf6bbba/multidomainvis/data/radiation/20230328_RadiationOption5_10mgrid.csv",
+      "download_url": "https://raw.githubusercontent.com/SB-Chalmers/ComputationSustainableDesign/7f61d112e0d60667bbef3e6fc4fc7236bcf6bbba/multidomainvis/data/radiation/20230328_RadiationOption5_10mgrid.csv",
+      "migrated_sha256": "2d3d7e8d670e3e6ef8e12e933a9ec9360482670cbf15ef17c0c757c677d0c01f"
+    },
+    {
+      "path": "data/radiation/20230328_RadiationOption6_10mgrid.csv",
+      "source_path": "multidomainvis/data/radiation/20230328_RadiationOption6_10mgrid.csv",
+      "status": "included",
+      "size": 669292,
+      "sha256": "177324d08d899478f049730f35635f17fb5dde73119d82e10a01ce6f14b56c8b",
+      "source_url": "https://github.com/SB-Chalmers/ComputationSustainableDesign/blob/7f61d112e0d60667bbef3e6fc4fc7236bcf6bbba/multidomainvis/data/radiation/20230328_RadiationOption6_10mgrid.csv",
+      "download_url": "https://raw.githubusercontent.com/SB-Chalmers/ComputationSustainableDesign/7f61d112e0d60667bbef3e6fc4fc7236bcf6bbba/multidomainvis/data/radiation/20230328_RadiationOption6_10mgrid.csv",
+      "migrated_sha256": "177324d08d899478f049730f35635f17fb5dde73119d82e10a01ce6f14b56c8b"
+    },
+    {
+      "path": "data/radiation/20230328_RadiationOption7_10mgrid.csv",
+      "source_path": "multidomainvis/data/radiation/20230328_RadiationOption7_10mgrid.csv",
+      "status": "included",
+      "size": 668076,
+      "sha256": "c3c2a1cfa44bb25f712e769c3a96f536ecbae1b8ad97d255ba3d291a135198c7",
+      "source_url": "https://github.com/SB-Chalmers/ComputationSustainableDesign/blob/7f61d112e0d60667bbef3e6fc4fc7236bcf6bbba/multidomainvis/data/radiation/20230328_RadiationOption7_10mgrid.csv",
+      "download_url": "https://raw.githubusercontent.com/SB-Chalmers/ComputationSustainableDesign/7f61d112e0d60667bbef3e6fc4fc7236bcf6bbba/multidomainvis/data/radiation/20230328_RadiationOption7_10mgrid.csv",
+      "migrated_sha256": "c3c2a1cfa44bb25f712e769c3a96f536ecbae1b8ad97d255ba3d291a135198c7"
+    },
+    {
+      "path": "data/wind/Option_0/WindroseSurfaceCell_small.csv",
+      "source_path": "multidomainvis/data/wind/Option_0/WindroseSurfaceCell_small.csv",
+      "status": "download",
+      "size": 6404091,
+      "sha256": "342a8dcc0047ed636d220478b136a8272e3d4f50889c74e2a477f84fdc2a5079",
+      "source_url": "https://github.com/SB-Chalmers/ComputationSustainableDesign/blob/7f61d112e0d60667bbef3e6fc4fc7236bcf6bbba/multidomainvis/data/wind/Option_0/WindroseSurfaceCell_small.csv",
+      "download_url": "https://raw.githubusercontent.com/SB-Chalmers/ComputationSustainableDesign/7f61d112e0d60667bbef3e6fc4fc7236bcf6bbba/multidomainvis/data/wind/Option_0/WindroseSurfaceCell_small.csv"
+    },
+    {
+      "path": "data/wind/Option_0/WindroseSurfaceNodes_small.csv",
+      "source_path": "multidomainvis/data/wind/Option_0/WindroseSurfaceNodes_small.csv",
+      "status": "download",
+      "size": 3318669,
+      "sha256": "f412d097ac735a4d630f6b24719138ca00a3554ef43312856b427960b5ffe3c4",
+      "source_url": "https://github.com/SB-Chalmers/ComputationSustainableDesign/blob/7f61d112e0d60667bbef3e6fc4fc7236bcf6bbba/multidomainvis/data/wind/Option_0/WindroseSurfaceNodes_small.csv",
+      "download_url": "https://raw.githubusercontent.com/SB-Chalmers/ComputationSustainableDesign/7f61d112e0d60667bbef3e6fc4fc7236bcf6bbba/multidomainvis/data/wind/Option_0/WindroseSurfaceNodes_small.csv"
+    },
+    {
+      "path": "data/wind/Option_1/WindroseSurfaceCell_small.csv",
+      "source_path": "multidomainvis/data/wind/Option_1/WindroseSurfaceCell_small.csv",
+      "status": "download",
+      "size": 6404091,
+      "sha256": "2cc6fef1703fe00a531c776159f2a3b4362a11fa3c273332aa4e6efc4c9b59aa",
+      "source_url": "https://github.com/SB-Chalmers/ComputationSustainableDesign/blob/7f61d112e0d60667bbef3e6fc4fc7236bcf6bbba/multidomainvis/data/wind/Option_1/WindroseSurfaceCell_small.csv",
+      "download_url": "https://raw.githubusercontent.com/SB-Chalmers/ComputationSustainableDesign/7f61d112e0d60667bbef3e6fc4fc7236bcf6bbba/multidomainvis/data/wind/Option_1/WindroseSurfaceCell_small.csv"
+    },
+    {
+      "path": "data/wind/Option_1/WindroseSurfaceNodes_small.csv",
+      "source_path": "multidomainvis/data/wind/Option_1/WindroseSurfaceNodes_small.csv",
+      "status": "download",
+      "size": 3318669,
+      "sha256": "f412d097ac735a4d630f6b24719138ca00a3554ef43312856b427960b5ffe3c4",
+      "source_url": "https://github.com/SB-Chalmers/ComputationSustainableDesign/blob/7f61d112e0d60667bbef3e6fc4fc7236bcf6bbba/multidomainvis/data/wind/Option_1/WindroseSurfaceNodes_small.csv",
+      "download_url": "https://raw.githubusercontent.com/SB-Chalmers/ComputationSustainableDesign/7f61d112e0d60667bbef3e6fc4fc7236bcf6bbba/multidomainvis/data/wind/Option_1/WindroseSurfaceNodes_small.csv"
+    },
+    {
+      "path": "data/wind/Option_2/WindroseSurfaceCell_small.csv",
+      "source_path": "multidomainvis/data/wind/Option_2/WindroseSurfaceCell_small.csv",
+      "status": "download",
+      "size": 6404091,
+      "sha256": "059943d96c567437bda6c648e9c8a29b76819081ce1f705d77b30360ac5c07a0",
+      "source_url": "https://github.com/SB-Chalmers/ComputationSustainableDesign/blob/7f61d112e0d60667bbef3e6fc4fc7236bcf6bbba/multidomainvis/data/wind/Option_2/WindroseSurfaceCell_small.csv",
+      "download_url": "https://raw.githubusercontent.com/SB-Chalmers/ComputationSustainableDesign/7f61d112e0d60667bbef3e6fc4fc7236bcf6bbba/multidomainvis/data/wind/Option_2/WindroseSurfaceCell_small.csv"
+    },
+    {
+      "path": "data/wind/Option_2/WindroseSurfaceNodes_small.csv",
+      "source_path": "multidomainvis/data/wind/Option_2/WindroseSurfaceNodes_small.csv",
+      "status": "download",
+      "size": 3318669,
+      "sha256": "f412d097ac735a4d630f6b24719138ca00a3554ef43312856b427960b5ffe3c4",
+      "source_url": "https://github.com/SB-Chalmers/ComputationSustainableDesign/blob/7f61d112e0d60667bbef3e6fc4fc7236bcf6bbba/multidomainvis/data/wind/Option_2/WindroseSurfaceNodes_small.csv",
+      "download_url": "https://raw.githubusercontent.com/SB-Chalmers/ComputationSustainableDesign/7f61d112e0d60667bbef3e6fc4fc7236bcf6bbba/multidomainvis/data/wind/Option_2/WindroseSurfaceNodes_small.csv"
+    },
+    {
+      "path": "data/wind/Option_3/WindroseSurfaceCell_small.csv",
+      "source_path": "multidomainvis/data/wind/Option_3/WindroseSurfaceCell_small.csv",
+      "status": "download",
+      "size": 6404091,
+      "sha256": "3c4024a77fed575a15a524d10ca983f8e012df9111e0eff329f231ed72841e52",
+      "source_url": "https://github.com/SB-Chalmers/ComputationSustainableDesign/blob/7f61d112e0d60667bbef3e6fc4fc7236bcf6bbba/multidomainvis/data/wind/Option_3/WindroseSurfaceCell_small.csv",
+      "download_url": "https://raw.githubusercontent.com/SB-Chalmers/ComputationSustainableDesign/7f61d112e0d60667bbef3e6fc4fc7236bcf6bbba/multidomainvis/data/wind/Option_3/WindroseSurfaceCell_small.csv"
+    },
+    {
+      "path": "data/wind/Option_3/WindroseSurfaceNodes_small.csv",
+      "source_path": "multidomainvis/data/wind/Option_3/WindroseSurfaceNodes_small.csv",
+      "status": "download",
+      "size": 3318669,
+      "sha256": "f412d097ac735a4d630f6b24719138ca00a3554ef43312856b427960b5ffe3c4",
+      "source_url": "https://github.com/SB-Chalmers/ComputationSustainableDesign/blob/7f61d112e0d60667bbef3e6fc4fc7236bcf6bbba/multidomainvis/data/wind/Option_3/WindroseSurfaceNodes_small.csv",
+      "download_url": "https://raw.githubusercontent.com/SB-Chalmers/ComputationSustainableDesign/7f61d112e0d60667bbef3e6fc4fc7236bcf6bbba/multidomainvis/data/wind/Option_3/WindroseSurfaceNodes_small.csv"
+    },
+    {
+      "path": "data/wind/Option_4/WindroseSurfaceCell_small.csv",
+      "source_path": "multidomainvis/data/wind/Option_4/WindroseSurfaceCell_small.csv",
+      "status": "download",
+      "size": 6404091,
+      "sha256": "7fa8aec2d9cd7f6812f797cfedaa6c1098f80a3fe4c8faf0120cb50584022aa2",
+      "source_url": "https://github.com/SB-Chalmers/ComputationSustainableDesign/blob/7f61d112e0d60667bbef3e6fc4fc7236bcf6bbba/multidomainvis/data/wind/Option_4/WindroseSurfaceCell_small.csv",
+      "download_url": "https://raw.githubusercontent.com/SB-Chalmers/ComputationSustainableDesign/7f61d112e0d60667bbef3e6fc4fc7236bcf6bbba/multidomainvis/data/wind/Option_4/WindroseSurfaceCell_small.csv"
+    },
+    {
+      "path": "data/wind/Option_4/WindroseSurfaceNodes_small.csv",
+      "source_path": "multidomainvis/data/wind/Option_4/WindroseSurfaceNodes_small.csv",
+      "status": "download",
+      "size": 3318669,
+      "sha256": "f412d097ac735a4d630f6b24719138ca00a3554ef43312856b427960b5ffe3c4",
+      "source_url": "https://github.com/SB-Chalmers/ComputationSustainableDesign/blob/7f61d112e0d60667bbef3e6fc4fc7236bcf6bbba/multidomainvis/data/wind/Option_4/WindroseSurfaceNodes_small.csv",
+      "download_url": "https://raw.githubusercontent.com/SB-Chalmers/ComputationSustainableDesign/7f61d112e0d60667bbef3e6fc4fc7236bcf6bbba/multidomainvis/data/wind/Option_4/WindroseSurfaceNodes_small.csv"
+    },
+    {
+      "path": "data/wind/Option_5/WindroseSurfaceCell_small.csv",
+      "source_path": "multidomainvis/data/wind/Option_5/WindroseSurfaceCell_small.csv",
+      "status": "download",
+      "size": 6404091,
+      "sha256": "99bdd3b6a976c474fab878d1c1841ffdb3710e96e3f214f3a6d5a5135e877ecc",
+      "source_url": "https://github.com/SB-Chalmers/ComputationSustainableDesign/blob/7f61d112e0d60667bbef3e6fc4fc7236bcf6bbba/multidomainvis/data/wind/Option_5/WindroseSurfaceCell_small.csv",
+      "download_url": "https://raw.githubusercontent.com/SB-Chalmers/ComputationSustainableDesign/7f61d112e0d60667bbef3e6fc4fc7236bcf6bbba/multidomainvis/data/wind/Option_5/WindroseSurfaceCell_small.csv"
+    },
+    {
+      "path": "data/wind/Option_5/WindroseSurfaceNodes_small.csv",
+      "source_path": "multidomainvis/data/wind/Option_5/WindroseSurfaceNodes_small.csv",
+      "status": "download",
+      "size": 3318669,
+      "sha256": "f412d097ac735a4d630f6b24719138ca00a3554ef43312856b427960b5ffe3c4",
+      "source_url": "https://github.com/SB-Chalmers/ComputationSustainableDesign/blob/7f61d112e0d60667bbef3e6fc4fc7236bcf6bbba/multidomainvis/data/wind/Option_5/WindroseSurfaceNodes_small.csv",
+      "download_url": "https://raw.githubusercontent.com/SB-Chalmers/ComputationSustainableDesign/7f61d112e0d60667bbef3e6fc4fc7236bcf6bbba/multidomainvis/data/wind/Option_5/WindroseSurfaceNodes_small.csv"
+    },
+    {
+      "path": "data/wind/Option_6/WindroseSurfaceCell_small.csv",
+      "source_path": "multidomainvis/data/wind/Option_6/WindroseSurfaceCell_small.csv",
+      "status": "download",
+      "size": 6404091,
+      "sha256": "7fa15ba3612f0a75ccccece54bd0d4b7b9fc1847a89e303ef0947d0ec6487fe6",
+      "source_url": "https://github.com/SB-Chalmers/ComputationSustainableDesign/blob/7f61d112e0d60667bbef3e6fc4fc7236bcf6bbba/multidomainvis/data/wind/Option_6/WindroseSurfaceCell_small.csv",
+      "download_url": "https://raw.githubusercontent.com/SB-Chalmers/ComputationSustainableDesign/7f61d112e0d60667bbef3e6fc4fc7236bcf6bbba/multidomainvis/data/wind/Option_6/WindroseSurfaceCell_small.csv"
+    },
+    {
+      "path": "data/wind/Option_6/WindroseSurfaceNodes_small.csv",
+      "source_path": "multidomainvis/data/wind/Option_6/WindroseSurfaceNodes_small.csv",
+      "status": "download",
+      "size": 3318669,
+      "sha256": "f412d097ac735a4d630f6b24719138ca00a3554ef43312856b427960b5ffe3c4",
+      "source_url": "https://github.com/SB-Chalmers/ComputationSustainableDesign/blob/7f61d112e0d60667bbef3e6fc4fc7236bcf6bbba/multidomainvis/data/wind/Option_6/WindroseSurfaceNodes_small.csv",
+      "download_url": "https://raw.githubusercontent.com/SB-Chalmers/ComputationSustainableDesign/7f61d112e0d60667bbef3e6fc4fc7236bcf6bbba/multidomainvis/data/wind/Option_6/WindroseSurfaceNodes_small.csv"
+    },
+    {
+      "path": "data/wind/Option_7/WindroseSurfaceCell_small.csv",
+      "source_path": "multidomainvis/data/wind/Option_7/WindroseSurfaceCell_small.csv",
+      "status": "download",
+      "size": 6404091,
+      "sha256": "b17554fc84f9cd37b27d4ef59fdb1e3467698c64b330771488b58c3a4a593b2c",
+      "source_url": "https://github.com/SB-Chalmers/ComputationSustainableDesign/blob/7f61d112e0d60667bbef3e6fc4fc7236bcf6bbba/multidomainvis/data/wind/Option_7/WindroseSurfaceCell_small.csv",
+      "download_url": "https://raw.githubusercontent.com/SB-Chalmers/ComputationSustainableDesign/7f61d112e0d60667bbef3e6fc4fc7236bcf6bbba/multidomainvis/data/wind/Option_7/WindroseSurfaceCell_small.csv"
+    },
+    {
+      "path": "data/wind/Option_7/WindroseSurfaceNodes_small.csv",
+      "source_path": "multidomainvis/data/wind/Option_7/WindroseSurfaceNodes_small.csv",
+      "status": "download",
+      "size": 3318667,
+      "sha256": "3e4cae83b8e84df6a63475dbfcb6d75afaedbd5f80c31599101884ec44a3b614",
+      "source_url": "https://github.com/SB-Chalmers/ComputationSustainableDesign/blob/7f61d112e0d60667bbef3e6fc4fc7236bcf6bbba/multidomainvis/data/wind/Option_7/WindroseSurfaceNodes_small.csv",
+      "download_url": "https://raw.githubusercontent.com/SB-Chalmers/ComputationSustainableDesign/7f61d112e0d60667bbef3e6fc4fc7236bcf6bbba/multidomainvis/data/wind/Option_7/WindroseSurfaceNodes_small.csv"
+    },
+    {
+      "path": "data/wind/removecols.ipynb",
+      "source_path": "multidomainvis/data/wind/removecols.ipynb",
+      "status": "included",
+      "size": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "source_url": "https://github.com/SB-Chalmers/ComputationSustainableDesign/blob/7f61d112e0d60667bbef3e6fc4fc7236bcf6bbba/multidomainvis/data/wind/removecols.ipynb",
+      "download_url": "https://raw.githubusercontent.com/SB-Chalmers/ComputationSustainableDesign/7f61d112e0d60667bbef3e6fc4fc7236bcf6bbba/multidomainvis/data/wind/removecols.ipynb",
+      "migrated_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "data/wind/removecols.py",
+      "source_path": "multidomainvis/data/wind/removecols.py",
+      "status": "included",
+      "size": 367,
+      "sha256": "a41d8b061722ccb2d3f931c97621823b155c7499c67c39baba3aa41564876800",
+      "source_url": "https://github.com/SB-Chalmers/ComputationSustainableDesign/blob/7f61d112e0d60667bbef3e6fc4fc7236bcf6bbba/multidomainvis/data/wind/removecols.py",
+      "download_url": "https://raw.githubusercontent.com/SB-Chalmers/ComputationSustainableDesign/7f61d112e0d60667bbef3e6fc4fc7236bcf6bbba/multidomainvis/data/wind/removecols.py",
+      "migrated_sha256": "a41d8b061722ccb2d3f931c97621823b155c7499c67c39baba3aa41564876800"
+    },
+    {
+      "path": "data/wind/surfaceLawson_option_0.png",
+      "source_path": "multidomainvis/data/wind/surfaceLawson_option_0.png",
+      "status": "included",
+      "size": 32011,
+      "sha256": "bf9db386062a6dbb7c937ab99f99fac72be9d9a6a18e0f924323f15469272502",
+      "source_url": "https://github.com/SB-Chalmers/ComputationSustainableDesign/blob/7f61d112e0d60667bbef3e6fc4fc7236bcf6bbba/multidomainvis/data/wind/surfaceLawson_option_0.png",
+      "download_url": "https://raw.githubusercontent.com/SB-Chalmers/ComputationSustainableDesign/7f61d112e0d60667bbef3e6fc4fc7236bcf6bbba/multidomainvis/data/wind/surfaceLawson_option_0.png",
+      "migrated_sha256": "bf9db386062a6dbb7c937ab99f99fac72be9d9a6a18e0f924323f15469272502"
+    },
+    {
+      "path": "index.html",
+      "source_path": "multidomainvis/index.html",
+      "status": "included",
+      "size": 1723,
+      "sha256": "9928534a6bdc2ac5d9efdc1036493d2ff445b5abb5ab94910f6598088e34cbee",
+      "source_url": "https://github.com/SB-Chalmers/ComputationSustainableDesign/blob/7f61d112e0d60667bbef3e6fc4fc7236bcf6bbba/multidomainvis/index.html",
+      "download_url": "https://raw.githubusercontent.com/SB-Chalmers/ComputationSustainableDesign/7f61d112e0d60667bbef3e6fc4fc7236bcf6bbba/multidomainvis/index.html",
+      "migrated_sha256": "9928534a6bdc2ac5d9efdc1036493d2ff445b5abb5ab94910f6598088e34cbee"
+    },
+    {
+      "path": "libs/Lut.js",
+      "source_path": "multidomainvis/libs/Lut.js",
+      "status": "included",
+      "size": 3642,
+      "sha256": "43a6548102a86e0ed7c9b7995708d30bffb23aa01702aad6618ef211396e83e4",
+      "source_url": "https://github.com/SB-Chalmers/ComputationSustainableDesign/blob/7f61d112e0d60667bbef3e6fc4fc7236bcf6bbba/multidomainvis/libs/Lut.js",
+      "download_url": "https://raw.githubusercontent.com/SB-Chalmers/ComputationSustainableDesign/7f61d112e0d60667bbef3e6fc4fc7236bcf6bbba/multidomainvis/libs/Lut.js",
+      "migrated_sha256": "43a6548102a86e0ed7c9b7995708d30bffb23aa01702aad6618ef211396e83e4"
+    },
+    {
+      "path": "libs/OrbitControls.js",
+      "source_path": "multidomainvis/libs/OrbitControls.js",
+      "status": "included",
+      "size": 25979,
+      "sha256": "24ed593394f9b65890df6c919b2ca21bb3df944ba959a4602ef40aabf9afe73b",
+      "source_url": "https://github.com/SB-Chalmers/ComputationSustainableDesign/blob/7f61d112e0d60667bbef3e6fc4fc7236bcf6bbba/multidomainvis/libs/OrbitControls.js",
+      "download_url": "https://raw.githubusercontent.com/SB-Chalmers/ComputationSustainableDesign/7f61d112e0d60667bbef3e6fc4fc7236bcf6bbba/multidomainvis/libs/OrbitControls.js",
+      "migrated_sha256": "24ed593394f9b65890df6c919b2ca21bb3df944ba959a4602ef40aabf9afe73b"
+    },
+    {
+      "path": "libs/STLLoader.js",
+      "source_path": "multidomainvis/libs/STLLoader.js",
+      "status": "included",
+      "size": 9694,
+      "sha256": "b14a2f01dea1719fc4ffdb51cb52d2930ca8148a81c1d1260111470f4344bef8",
+      "source_url": "https://github.com/SB-Chalmers/ComputationSustainableDesign/blob/7f61d112e0d60667bbef3e6fc4fc7236bcf6bbba/multidomainvis/libs/STLLoader.js",
+      "download_url": "https://raw.githubusercontent.com/SB-Chalmers/ComputationSustainableDesign/7f61d112e0d60667bbef3e6fc4fc7236bcf6bbba/multidomainvis/libs/STLLoader.js",
+      "migrated_sha256": "b14a2f01dea1719fc4ffdb51cb52d2930ca8148a81c1d1260111470f4344bef8"
+    },
+    {
+      "path": "libs/XRButton.js",
+      "source_path": "multidomainvis/libs/XRButton.js",
+      "status": "included",
+      "size": 3682,
+      "sha256": "5b28a569d1b753ace1dd04b1e17d474d7ecea7d9c8fec30f3476477f2c571f4d",
+      "source_url": "https://github.com/SB-Chalmers/ComputationSustainableDesign/blob/7f61d112e0d60667bbef3e6fc4fc7236bcf6bbba/multidomainvis/libs/XRButton.js",
+      "download_url": "https://raw.githubusercontent.com/SB-Chalmers/ComputationSustainableDesign/7f61d112e0d60667bbef3e6fc4fc7236bcf6bbba/multidomainvis/libs/XRButton.js",
+      "migrated_sha256": "5b28a569d1b753ace1dd04b1e17d474d7ecea7d9c8fec30f3476477f2c571f4d"
+    },
+    {
+      "path": "libs/XREstimatedLight.js",
+      "source_path": "multidomainvis/libs/XREstimatedLight.js",
+      "status": "included",
+      "size": 5308,
+      "sha256": "218d36598cd69923572b948c7ec953e085a6622b9ae8294759dd46cc31b3016e",
+      "source_url": "https://github.com/SB-Chalmers/ComputationSustainableDesign/blob/7f61d112e0d60667bbef3e6fc4fc7236bcf6bbba/multidomainvis/libs/XREstimatedLight.js",
+      "download_url": "https://raw.githubusercontent.com/SB-Chalmers/ComputationSustainableDesign/7f61d112e0d60667bbef3e6fc4fc7236bcf6bbba/multidomainvis/libs/XREstimatedLight.js",
+      "migrated_sha256": "218d36598cd69923572b948c7ec953e085a6622b9ae8294759dd46cc31b3016e"
+    },
+    {
+      "path": "libs/lil-gui.module.min.js",
+      "source_path": "multidomainvis/libs/lil-gui.module.min.js",
+      "status": "included",
+      "size": 29526,
+      "sha256": "5e31e7fc4d3a1268550b948463eabe06c7a6c03c158ccb99c78616d2c9682518",
+      "source_url": "https://github.com/SB-Chalmers/ComputationSustainableDesign/blob/7f61d112e0d60667bbef3e6fc4fc7236bcf6bbba/multidomainvis/libs/lil-gui.module.min.js",
+      "download_url": "https://raw.githubusercontent.com/SB-Chalmers/ComputationSustainableDesign/7f61d112e0d60667bbef3e6fc4fc7236bcf6bbba/multidomainvis/libs/lil-gui.module.min.js",
+      "migrated_sha256": "5e31e7fc4d3a1268550b948463eabe06c7a6c03c158ccb99c78616d2c9682518"
+    },
+    {
+      "path": "libs/papaparse.min.js",
+      "source_path": "multidomainvis/libs/papaparse.min.js",
+      "status": "included",
+      "size": 18907,
+      "sha256": "51eeb0a26e3c4906e99b05bd40893ba72543479060dfa49eb4febb576a439317",
+      "source_url": "https://github.com/SB-Chalmers/ComputationSustainableDesign/blob/7f61d112e0d60667bbef3e6fc4fc7236bcf6bbba/multidomainvis/libs/papaparse.min.js",
+      "download_url": "https://raw.githubusercontent.com/SB-Chalmers/ComputationSustainableDesign/7f61d112e0d60667bbef3e6fc4fc7236bcf6bbba/multidomainvis/libs/papaparse.min.js",
+      "migrated_sha256": "51eeb0a26e3c4906e99b05bd40893ba72543479060dfa49eb4febb576a439317"
+    },
+    {
+      "path": "libs/three.module.js",
+      "source_path": "multidomainvis/libs/three.module.js",
+      "status": "included",
+      "size": 1172521,
+      "sha256": "450d60513f2a2148c9648d89418c5507908455458b191747be2492262791693c",
+      "source_url": "https://github.com/SB-Chalmers/ComputationSustainableDesign/blob/7f61d112e0d60667bbef3e6fc4fc7236bcf6bbba/multidomainvis/libs/three.module.js",
+      "download_url": "https://raw.githubusercontent.com/SB-Chalmers/ComputationSustainableDesign/7f61d112e0d60667bbef3e6fc4fc7236bcf6bbba/multidomainvis/libs/three.module.js",
+      "migrated_sha256": "450d60513f2a2148c9648d89418c5507908455458b191747be2492262791693c"
+    },
+    {
+      "path": "main.js",
+      "source_path": "multidomainvis/main.js",
+      "status": "included",
+      "size": 12556,
+      "sha256": "f5129b140c24ee678c3f35d3091c15ede671960b358dd856fd8b66a395a3eec1",
+      "source_url": "https://github.com/SB-Chalmers/ComputationSustainableDesign/blob/7f61d112e0d60667bbef3e6fc4fc7236bcf6bbba/multidomainvis/main.js",
+      "download_url": "https://raw.githubusercontent.com/SB-Chalmers/ComputationSustainableDesign/7f61d112e0d60667bbef3e6fc4fc7236bcf6bbba/multidomainvis/main.js",
+      "migrated_sha256": "b1752cb69527430bc1b2d63a57b9f17d1c4eefc4d702411ed6778053738911b1"
+    },
+    {
+      "path": "resources/circle.png",
+      "source_path": "multidomainvis/resources/circle.png",
+      "status": "included",
+      "size": 5247,
+      "sha256": "80f0e1e578047d8110c06f1720286851b3eb4ed3afb2fa518573657be876c04c",
+      "source_url": "https://github.com/SB-Chalmers/ComputationSustainableDesign/blob/7f61d112e0d60667bbef3e6fc4fc7236bcf6bbba/multidomainvis/resources/circle.png",
+      "download_url": "https://raw.githubusercontent.com/SB-Chalmers/ComputationSustainableDesign/7f61d112e0d60667bbef3e6fc4fc7236bcf6bbba/multidomainvis/resources/circle.png",
+      "migrated_sha256": "80f0e1e578047d8110c06f1720286851b3eb4ed3afb2fa518573657be876c04c"
+    },
+    {
+      "path": "src/CSVLoader.js",
+      "source_path": "multidomainvis/src/CSVLoader.js",
+      "status": "included",
+      "size": 1154,
+      "sha256": "d29e3b576a74f75c0406bd30fdf6ad19024e51c81b8d92617f22f815767a3892",
+      "source_url": "https://github.com/SB-Chalmers/ComputationSustainableDesign/blob/7f61d112e0d60667bbef3e6fc4fc7236bcf6bbba/multidomainvis/src/CSVLoader.js",
+      "download_url": "https://raw.githubusercontent.com/SB-Chalmers/ComputationSustainableDesign/7f61d112e0d60667bbef3e6fc4fc7236bcf6bbba/multidomainvis/src/CSVLoader.js",
+      "migrated_sha256": "d29e3b576a74f75c0406bd30fdf6ad19024e51c81b8d92617f22f815767a3892"
+    },
+    {
+      "path": "src/DataHandler.js",
+      "source_path": "multidomainvis/src/DataHandler.js",
+      "status": "included",
+      "size": 6953,
+      "sha256": "8712216328c86882598f36e56bcf005f0354ce0a155b93de2ca5f4e19ce8432b",
+      "source_url": "https://github.com/SB-Chalmers/ComputationSustainableDesign/blob/7f61d112e0d60667bbef3e6fc4fc7236bcf6bbba/multidomainvis/src/DataHandler.js",
+      "download_url": "https://raw.githubusercontent.com/SB-Chalmers/ComputationSustainableDesign/7f61d112e0d60667bbef3e6fc4fc7236bcf6bbba/multidomainvis/src/DataHandler.js",
+      "migrated_sha256": "8712216328c86882598f36e56bcf005f0354ce0a155b93de2ca5f4e19ce8432b"
+    },
+    {
+      "path": "src/Dataset.js",
+      "source_path": "multidomainvis/src/Dataset.js",
+      "status": "included",
+      "size": 6859,
+      "sha256": "04268057e6254a67871eb61f4cc308d358a225736fdddfa20591df4213815f40",
+      "source_url": "https://github.com/SB-Chalmers/ComputationSustainableDesign/blob/7f61d112e0d60667bbef3e6fc4fc7236bcf6bbba/multidomainvis/src/Dataset.js",
+      "download_url": "https://raw.githubusercontent.com/SB-Chalmers/ComputationSustainableDesign/7f61d112e0d60667bbef3e6fc4fc7236bcf6bbba/multidomainvis/src/Dataset.js",
+      "migrated_sha256": "04268057e6254a67871eb61f4cc308d358a225736fdddfa20591df4213815f40"
+    },
+    {
+      "path": "src/csvWorker.js",
+      "source_path": "multidomainvis/src/csvWorker.js",
+      "status": "included",
+      "size": 302,
+      "sha256": "a4ff805572b06781a9abe01746bb589bebbb83b079c44c422f4b018b9062ecd3",
+      "source_url": "https://github.com/SB-Chalmers/ComputationSustainableDesign/blob/7f61d112e0d60667bbef3e6fc4fc7236bcf6bbba/multidomainvis/src/csvWorker.js",
+      "download_url": "https://raw.githubusercontent.com/SB-Chalmers/ComputationSustainableDesign/7f61d112e0d60667bbef3e6fc4fc7236bcf6bbba/multidomainvis/src/csvWorker.js",
+      "migrated_sha256": "a4ff805572b06781a9abe01746bb589bebbb83b079c44c422f4b018b9062ecd3"
+    },
+    {
+      "path": "src/draw.js",
+      "source_path": "multidomainvis/src/draw.js",
+      "status": "included",
+      "size": 2582,
+      "sha256": "7c5e6deb06a6f251225225e823cb9261f309387543b00eaa05d56329b4aa033a",
+      "source_url": "https://github.com/SB-Chalmers/ComputationSustainableDesign/blob/7f61d112e0d60667bbef3e6fc4fc7236bcf6bbba/multidomainvis/src/draw.js",
+      "download_url": "https://raw.githubusercontent.com/SB-Chalmers/ComputationSustainableDesign/7f61d112e0d60667bbef3e6fc4fc7236bcf6bbba/multidomainvis/src/draw.js",
+      "migrated_sha256": "7c5e6deb06a6f251225225e823cb9261f309387543b00eaa05d56329b4aa033a"
+    },
+    {
+      "path": "src/windDataWorker.js",
+      "source_path": "multidomainvis/src/windDataWorker.js",
+      "status": "included",
+      "size": 1550,
+      "sha256": "ea5525cfe7e206b293d5c1842274b57cf5897b5b1a22de15a729d56ea0264ba0",
+      "source_url": "https://github.com/SB-Chalmers/ComputationSustainableDesign/blob/7f61d112e0d60667bbef3e6fc4fc7236bcf6bbba/multidomainvis/src/windDataWorker.js",
+      "download_url": "https://raw.githubusercontent.com/SB-Chalmers/ComputationSustainableDesign/7f61d112e0d60667bbef3e6fc4fc7236bcf6bbba/multidomainvis/src/windDataWorker.js",
+      "migrated_sha256": "ea5525cfe7e206b293d5c1842274b57cf5897b5b1a22de15a729d56ea0264ba0"
+    }
+  ]
+}
