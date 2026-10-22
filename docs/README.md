@@ -1,6 +1,7 @@
 # Documentation
 
 - [Run the viewer and inspect outputs](reproduce.md).
+- [Publication, funding and relationship to decarbonAIte](research-context.md).
 - [Original research workflow and credited authors](original-readme.md).
 - [Migration, retained history, and source provenance](migration.md).
 - [Input data inventory](../data/README.md).
@@ -19,8 +20,7 @@ Three.js revision 149, lil-gui 0.17.0, and Papa Parse 5.3.2 are vendored in `lib
 
 ## Funding and maintainer questions
 
-The [Chalmers publication record](https://research.chalmers.se/en/publication/546286) associates the paper with UEQ/Formas 2019-01885, the Digital Twin Cities Centre/VINNOVA 2019-00041, and an Areas of Advance Energy project. The [publisher's acknowledgments](https://www.tandfonline.com/doi/abs/10.1080/19401493.2024.2320112) also credit InfraVis support through Swedish Research Council grant 2021-00181. These are research-paper acknowledgments, not an assertion that every software file was funded by each grant.
+The [research context](research-context.md) records the published funding acknowledgments and explains the connection to decarbonAIte. Research-project attribution follows the cited sources; repository commit history identifies software contributors.
 
-- TODO: project members confirm the software-specific funding statement and preferred archived software citation.
 - TODO: provide the compatible CityModel JSON through an approved data access route and confirm data attribution and terms.
 - TODO: supply a dedicated dataset/software archive DOI if one is established; no archive record was invented during migration.

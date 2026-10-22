@@ -8,7 +8,9 @@ Explore urban design alternatives through combined energy, wind, noise, and sola
 
 ## Context and aim
 
-This Three.js viewer accompanies a Gothenburg case study in computational sustainable design. It compares simulated design alternatives and provides an experimental WebXR mode. The original research workflow and author list are retained in [the research notes](docs/original-readme.md).
+This Three.js viewer is the web visualization accompanying [Gonzalez-Caceres et al.'s Gothenburg multi-domain study](https://research.chalmers.se/publication/546286). It compares simulated design alternatives and provides an experimental WebXR mode. The article links directly to the viewer's original URL.
+
+The work connects to [decarbonAIte](https://github.com/SB-Chalmers/decarbonAIte) through the group's wider DTCC and urban digital-twin research. See [publication provenance, funding and the documented connection](docs/research-context.md).
 
 **Project status:** migrated research prototype. The migration preserves the original rendering and simulation assumptions; it is not a new validation of the case-study results.
 
